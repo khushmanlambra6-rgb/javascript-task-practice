@@ -10,7 +10,7 @@
     <input type="text" id="password">
     <input type="text"  id="cpassword">
     <p id="para"></p>
-    <button onclick="checkpassword()">check password</button>
+    <button onclick="checkpassword()">check password</button>  
     <script>
      function checkpassword(){
         pass= document.getElementById("password").value
@@ -52,7 +52,30 @@
     </script> -->
 
 
-    
+      <input type="text" id="namee">Name<br><br>
+      <input type="text" id="age">age<br><br>
+      <input type="number" id="num">phnum<br><br>
+      <input type="text"  id="email">email<br><br>
+      <button onclick="checkdetails()">submit</button>
+      <p id="para"></p>
+      <script>
+         function checkdetails(){
+          let namee=document.getElementById("namee").value 
+          let age=document.getElementById("age").value
+           let num=document.getElementById("num").value
+          let email=document.getElementById("email").value
+
+            if(namee==""||age==""||num==""||email==""){
+                document.getElementById("para").innerHTML="please fill the required details"
+            }
+            if(namee!=""&& age!=""&& num!="" && email!=""){
+                document.getElementById("para").innerHTML="submit successfully"
+            }
+         }
+
+
+      </script>
+
 
       
 </body>
