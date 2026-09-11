@@ -1,0 +1,32 @@
+.container {
+    height: 350px;
+    width: 250px;
+    border: 2px solid;
+}
+
+#res {
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 180px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+
+}
+
+.buttons {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    justify-self: center;
+}
+#last{
+    height: 40px;
+    width: 80px;
+}
